@@ -5,7 +5,7 @@ def time_check(amount_time):
             time_start = time.perf_counter()
             time.sleep(amount_time)
             res = time_start - time.perf_counter()
-            print(res, func(*args, **kwargs))cd 
+            print(res, func(*args, **kwargs))
             return func(*args, **kwargs)
         return wrapper
     return inner
