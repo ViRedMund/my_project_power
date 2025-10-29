@@ -1,4 +1,7 @@
 import time
+
+n = input()
+
 def time_check(amount_time):
     def inner(func):
         def wrapper(*args, **kwargs):
